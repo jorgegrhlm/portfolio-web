@@ -23,7 +23,7 @@ function Footer() {
         </p>
 
         <p className="footer-description">
-          Desarrollador de software especializado en Java, Python y tecnologías
+          Desarrollador de software en Java, Python y tecnologías
           Full Stack.
         </p>
 
