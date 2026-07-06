@@ -1,0 +1,153 @@
+.contact {
+  padding: 100px 2rem;
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+.contact-container {
+  max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact-description {
+  max-width: 700px;
+  margin: 0 auto 4rem;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+}
+
+.contact-card {
+    max-width: 900px;
+    margin: 0 auto 2.5rem;
+
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 16px;
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+
+  padding: 1rem;
+
+  text-decoration: none;
+  color: inherit;
+
+  border-radius: 12px;
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.contact-item:hover {
+  background: #334155;
+  transform: translateX(6px);
+}
+
+.contact-icon {
+  font-size: 1.7rem;
+  color: #00bcd4;
+  flex-shrink: 0;
+}
+
+.contact-item h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  text-align: left;
+}
+
+.contact-item p {
+  margin-top: .35rem;
+  color: #bdbdbd;
+  text-align: left;
+  word-break: break-word;
+}
+
+.contact-container>a {
+  display: inline-block;
+}
+
+/* ---------- Tablets ---------- */
+
+@media (max-width: 992px) {
+
+  .contact {
+    padding: 80px 2rem;
+  }
+
+  .contact-title {
+    font-size: 2.2rem;
+  }
+
+}
+
+/* ---------- Móviles ---------- */
+
+@media (max-width: 768px) {
+
+  .contact {
+    padding: 70px 1.5rem;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-description {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+}
+
+/* ---------- Móviles pequeños ---------- */
+@media (max-width: 480px) {
+
+  .contact {
+    padding: 60px 1rem;
+  }
+
+  .contact-title {
+    font-size: 1.8rem;
+  }
+
+}
+
+.contact-item {
+    cursor: pointer;
+}
+
+.copy-message {
+    margin-bottom: 2rem;
+
+    color: #60a5fa;
+
+    font-weight: 600;
+
+    text-align: center;
+}

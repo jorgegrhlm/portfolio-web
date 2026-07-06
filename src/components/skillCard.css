@@ -1,0 +1,96 @@
+.skill-card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 16px;
+
+    padding: 2rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+
+    height: 100%;
+
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+
+.skill-card-icon {
+    font-size: 3rem;
+    color: #60a5fa;
+}
+
+.skill-card-name {
+    text-align: center;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    color: #ffffff;
+
+    word-break: break-word;
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+    .skill-card {
+        padding: 1.75rem 1rem;
+    }
+
+    .skill-card-icon {
+        font-size: 2.7rem;
+    }
+
+}
+
+/* ========================= */
+/* Móvil */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .skill-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .skill-card-icon {
+        font-size: 2.5rem;
+    }
+
+    .skill-card-name {
+        font-size: .95rem;
+    }
+
+}
+
+/* ========================= */
+/* Móviles pequeños */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+    .skill-card {
+        padding: 1.25rem;
+    }
+
+    .skill-card-icon {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (hover: hover) {
+
+    .skill-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+
+}

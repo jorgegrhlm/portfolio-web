@@ -1,0 +1,87 @@
+.experience {
+    padding: 100px 2rem;
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+.experience-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.experience-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.experience-subtitle {
+    max-width: 700px;
+    margin: 0 auto 4rem;
+
+    text-align: center;
+
+    font-size: 1.05rem;
+    line-height: 1.8;
+
+    color: #cbd5e1;
+}
+
+.experience-timeline {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+    .experience {
+        padding: 80px 2rem;
+    }
+
+    .experience-title {
+        font-size: 2.2rem;
+    }
+
+}
+
+/* ========================= */
+/* Móvil */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .experience {
+        padding: 70px 1.5rem;
+    }
+
+    .experience-title {
+        font-size: 2rem;
+    }
+
+    .experience-subtitle {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+
+}
+
+/* ========================= */
+/* Móviles pequeños */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+    .experience {
+        padding: 60px 1rem;
+    }
+
+    .experience-title {
+        font-size: 1.8rem;
+    }
+
+}

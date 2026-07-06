@@ -1,0 +1,96 @@
+.projects {
+    padding: 100px 2rem;
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.projects-subtitle {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+.projects-grid {
+    margin-top: 4rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+    gap: 2rem;
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+    .projects {
+        padding: 80px 2rem;
+    }
+
+    .projects-title {
+        font-size: 2.2rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+}
+
+/* ========================= */
+/* Móvil */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .projects {
+        padding: 70px 1.5rem;
+    }
+
+    .projects-title {
+        font-size: 2rem;
+    }
+
+    .projects-subtitle {
+        font-size: 1rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+}
+
+/* ========================= */
+/* Móviles pequeños */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+    .projects {
+        padding: 60px 1rem;
+    }
+
+    .projects-title {
+        font-size: 1.8rem;
+    }
+
+}

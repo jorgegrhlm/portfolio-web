@@ -1,0 +1,34 @@
+:root {
+    /* Colores */
+    --color-background: #0f172a;
+    --color-surface: #1e293b;
+    --color-primary: #3b82f6;
+    --color-text: #f8fafc;
+    --color-text-secondary: #cbd5e1;
+
+    /* Tipografía */
+    --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Tamaño máximo del contenido */
+    --max-width: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-family);
+}
+
+#root {
+    min-height: 100vh;
+}

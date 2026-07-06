@@ -1,0 +1,198 @@
+.timeline-item {
+    position: relative;
+
+    display: flex;
+    gap: 2rem;
+
+    padding-bottom: 3rem;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline-marker {
+    position: relative;
+
+    width: 18px;
+    flex-shrink: 0;
+}
+
+.timeline-marker::before {
+    content: "";
+
+    position: absolute;
+
+    left: 8px;
+    top: 0;
+    bottom: -3rem;
+
+    width: 2px;
+
+    background-color: #334155;
+}
+
+.timeline-item:last-child .timeline-marker::before {
+    display: none;
+}
+
+.timeline-marker::after {
+    content: "";
+
+    position: absolute;
+
+    left: 2px;
+    top: 8px;
+
+    width: 14px;
+    height: 14px;
+
+    background-color: #2563eb;
+    border: 3px solid #0f172a;
+
+    border-radius: 50%;
+}
+
+.timeline-content {
+    flex: 1;
+
+    background-color: #1e293b;
+
+    border: 1px solid #334155;
+    border-radius: 16px;
+
+    padding: 2rem;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+
+.timeline-period {
+    display: inline-block;
+
+    margin-bottom: .75rem;
+
+    color: #60a5fa;
+
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.timeline-position {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.timeline-company {
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    margin-bottom: .25rem;
+}
+
+.timeline-location {
+    color: #94a3b8;
+    margin-bottom: 1.5rem;
+}
+
+.timeline-description {
+    color: #cbd5e1;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.timeline-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+.timeline-tech {
+    background-color: rgba(37,99,235,.12);
+    color: #60a5fa;
+
+    border: 1px solid rgba(96,165,250,.35);
+
+    padding: .35rem .8rem;
+
+    border-radius: 999px;
+
+    font-size: .85rem;
+    font-weight: 500;
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+    .timeline-content {
+        padding: 1.75rem;
+    }
+
+}
+
+/* ========================= */
+/* Móvil */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .timeline-item {
+        gap: 1rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .timeline-content {
+        padding: 1.5rem;
+    }
+
+    .timeline-position {
+        font-size: 1.3rem;
+    }
+
+    .timeline-company {
+        font-size: 1rem;
+    }
+
+    .timeline-marker {
+        width: 16px;
+    }
+
+}
+
+/* ========================= */
+/* Móviles pequeños */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+    .timeline-item {
+        gap: .75rem;
+    }
+
+    .timeline-content {
+        padding: 1.25rem;
+    }
+
+    .timeline-position {
+        font-size: 1.15rem;
+    }
+
+    .timeline-description {
+        font-size: .95rem;
+    }
+
+    .timeline-tech {
+        font-size: .8rem;
+    }
+
+}
+
+@media (hover: hover) {
+
+    .timeline-content:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+
+}

@@ -1,0 +1,165 @@
+#hero {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 90px 2rem 0;
+}
+
+.hero-content {
+    max-width: 900px;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    gap: 1.5rem;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.hero-content h2 {
+    font-size: 1.8rem;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.hero-content p {
+    max-width: 700px;
+
+    color: var(--color-text-secondary);
+
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-socials {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-socials a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    text-decoration: none;
+    color: var(--color-text-secondary);
+
+    transition: color .3s ease;
+}
+
+.hero-socials a:hover {
+    color: var(--color-primary);
+}
+
+.hero-socials svg {
+    font-size: 1.3rem;
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+    .hero-content h1 {
+        font-size: 3.2rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.05rem;
+    }
+
+}
+
+/* ========================= */
+/* Móvil */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    #hero {
+        padding: 100px 1.5rem 3rem;
+    }
+
+    .hero-content {
+        width: 100%;
+        gap: 1.25rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .hero-content h2 {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .hero-buttons {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-socials {
+        gap: 1.5rem;
+    }
+
+}
+
+/* ========================= */
+/* Móviles pequeños */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.1rem;
+    }
+
+    .hero-content p {
+        font-size: .95rem;
+    }
+
+    .hero-socials {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+}
