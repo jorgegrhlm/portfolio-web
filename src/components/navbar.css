@@ -85,8 +85,9 @@
     }
 
     .navbar-toggle {
-        display: block;
-    }
+    display: flex;
+    margin-left: auto;
+    }   
 
     .navbar-menu {
         display: none;
