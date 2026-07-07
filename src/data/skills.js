@@ -20,6 +20,7 @@ import {
   SiVite,
   SiUnity,
   SiOdoo,
+  SiSpringboot,
 } from "react-icons/si";
 
 const skills = [
@@ -64,40 +65,58 @@ const skills = [
   },
 
   // Backend
-  {
-    id: 7,
-    name: "Django REST",
-    icon: SiDjango,
-    category: "Backend",
-  },
-  {
-    id: 8,
-    name: "Odoo",
-    icon: SiOdoo,
-    category: "Backend",
-  },
+{
+  id: 7,
+  name: "Spring Boot",
+  icon: SiSpringboot,
+  category: "Backend",
+},
+{
+  id: 8,
+  name: "Spring Data JPA",
+  icon: FaJava,
+  category: "Backend",
+},
+{
+  id: 9,
+  name: "Hibernate",
+  icon: FaJava,
+  category: "Backend",
+},
+{
+  id: 10,
+  name: "Django REST",
+  icon: SiDjango,
+  category: "Backend",
+},
+{
+  id: 11,
+  name: "Odoo",
+  icon: SiOdoo,
+  category: "Backend",
+},
 
   // Bases de datos
   {
-    id: 9,
+    id: 12,
     name: "PostgreSQL",
     icon: SiPostgresql,
     category: "Bases de datos",
   },
   {
-    id: 10,
+    id: 13,
     name: "MySQL",
     icon: SiMysql,
     category: "Bases de datos",
   },
   {
-    id: 11,
+    id: 14,
     name: "MariaDB",
     icon: SiMariadb,
     category: "Bases de datos",
   },
   {
-    id: 12,
+    id: 15,
     name: "MongoDB",
     icon: SiMongodb,
     category: "Bases de datos",
@@ -105,19 +124,19 @@ const skills = [
 
   // DevOps
   {
-    id: 13,
+    id: 16,
     name: "Docker",
     icon: FaDocker,
     category: "DevOps",
   },
   {
-    id: 14,
+    id: 17,
     name: "Docker Compose",
     icon: FaCode,
     category: "DevOps",
   },
   {
-    id: 15,
+    id: 18,
     name: "AWS",
     icon: FaAws,
     category: "DevOps",
@@ -125,31 +144,31 @@ const skills = [
 
   // Herramientas
   {
-    id: 16,
+    id: 19,
     name: "Git",
     icon: FaGitAlt,
     category: "Herramientas",
   },
   {
-    id: 17,
+    id: 20,
     name: "GitHub",
     icon: FaGithub,
     category: "Herramientas",
   },
   {
-    id: 18,
+    id: 21,
     name: "Linux",
     icon: FaLinux,
     category: "Herramientas",
   },
   {
-    id: 19,
+    id: 22,
     name: "SSH",
     icon: FaCode,
     category: "Herramientas",
   },
   {
-    id: 20,
+    id: 23,
     name: "Unity",
     icon: SiUnity,
     category: "Herramientas",
