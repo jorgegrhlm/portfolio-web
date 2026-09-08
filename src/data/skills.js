@@ -21,6 +21,11 @@ import {
   SiUnity,
   SiOdoo,
   SiSpringboot,
+  SiNginx,
+  SiGunicorn,
+  SiUbuntu,
+  SiLetsencrypt,
+  SiGnubash,
 } from "react-icons/si";
 
 const skills = [
@@ -141,6 +146,30 @@ const skills = [
     icon: FaAws,
     category: "DevOps",
   },
+  {
+    id: 24,
+    name: "Nginx",
+    icon: SiNginx,
+    category: "DevOps",
+  },
+  {
+    id: 25,
+    name: "Gunicorn",
+    icon: SiGunicorn,
+    category: "DevOps",
+  },
+  {
+    id: 26,
+    name: "Ubuntu Server",
+    icon: SiUbuntu,
+    category: "DevOps",
+  },
+  {
+    id: 27,
+    name: "Let's Encrypt",
+    icon: SiLetsencrypt,
+    category: "DevOps",
+  },
 
   // Herramientas
   {
@@ -171,6 +200,12 @@ const skills = [
     id: 23,
     name: "Unity",
     icon: SiUnity,
+    category: "Herramientas",
+  },
+  {
+    id: 28,
+    name: "Bash",
+    icon: SiGnubash,
     category: "Herramientas",
   },
 ];

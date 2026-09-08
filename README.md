@@ -20,6 +20,15 @@ Portfolio profesional desarrollado para presentar mi perfil como Desarrollador d
 - Open Graph
 - Accesibilidad básica
 
+## Proyecto destacado
+
+**Paraíso Cupcake Shop** — Tienda web Full Stack (Django REST + React + PostgreSQL + Docker Compose)
+desplegada en producción sobre un VPS Linux con Nginx, Gunicorn, HTTPS de Let's Encrypt
+y copias de seguridad diarias fuera del servidor.
+
+- Web: https://paraisocupcake.com
+- Código: https://github.com/jorgegrhlm/paraisocupcakeshop
+
 ## Secciones
 
 - Inicio

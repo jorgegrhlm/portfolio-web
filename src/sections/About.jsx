@@ -21,15 +21,17 @@ function About() {
                 <div className="about-card">
                     <h3>💼 Experiencia</h3>
                     <p>
-                        Desarrollo de aplicaciones web utilizando Java,
-                        Python, React, Django REST, Docker, SQL y AWS.
+                        Desarrollo de aplicaciones web con Java, Python,
+                        React, Django REST, Docker y SQL, y puesta en
+                        producción sobre servidores Linux con Nginx,
+                        HTTPS y copias de seguridad automatizadas.
                     </p>
                 </div>
 
                 <div className="about-card">
                     <h3>🛠 Tecnologías</h3>
                     <p>
-                        Java · Python · React · Django REST · Docker · SQL · AWS · Git · Odoo
+                        Java · Python · React · Django REST · Docker · SQL · Linux · Nginx · AWS · Git · Odoo
                     </p>
                 </div>
 
